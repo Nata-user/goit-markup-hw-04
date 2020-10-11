@@ -191,6 +191,10 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.section-command {
+  fill: #f5f4fa;
+  background: #f5f4fa;
+}
 
 .section-command-proffesion {
   font-family: var(--main-font);
@@ -324,6 +328,11 @@ ul {
 .modal-btn-1:hover,
 .modal-btn-1:focus {
   color: #ffff;
+  background: #2196f3;
+}
+.modal-btn-1:hover,
+.modal-btn-1:focus {
+  color: #ffffff;
 }
 .section-work-heading-1 {
   font-family: var(--main-font);
