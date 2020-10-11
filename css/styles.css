@@ -541,7 +541,7 @@ ul {
   display: flex;
   text-align: center;
   justify-items: center;
-  margin-top: 32px;
+  margin-bottom: 9px;
 }
 .footer .contact-all {
   display: flex;
@@ -554,4 +554,7 @@ ul {
 }
 .footer .social-list-item {
   margin-right: 10px;
+}
+.footer .address-location {
+  margin-top: 20px;
 }
