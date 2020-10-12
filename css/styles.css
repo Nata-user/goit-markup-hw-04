@@ -100,6 +100,8 @@ img {
 .header-tel-link:focus {
   color: #2196f3;
 }
+
+
 .navigation-list,
 .header-tel-link {
   font-style: 400;
@@ -448,11 +450,11 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+  
 }
 .social-list-link:hover {
   background-color: #2196f3;
 }
-
 .social-list-link:hover .social-list-svg {
   fill: #ffffff;
 }
@@ -460,16 +462,26 @@ ul {
 .social-list-svg {
   width: 20px;
   height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .social-list {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   flex-wrap: nowrap;
 }
 .social-list-item {
   padding-top: 15px;
   padding-bottom: 30px;
+}
+.social {
+  width: 206px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
 }
 .section-clients {
   padding-top: 95px;
@@ -496,6 +508,11 @@ ul {
   box-sizing: border-box;
   border-radius: 4px;
 }
+.add-svg-1:hover,
+.add-svg-2:hover{
+  background-color: #2196f3;
+}
+
 .images-client:hover {
   border: 1px solid #2196f3;
 }
