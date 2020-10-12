@@ -100,8 +100,6 @@ img {
 .header-tel-link:focus {
   color: #2196f3;
 }
-
-
 .navigation-list,
 .header-tel-link {
   font-style: 400;
@@ -325,7 +323,9 @@ ul {
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 1px solid #eeeeee;
 }
 .modal-btn-1:hover,
 .modal-btn-1:focus {
@@ -334,7 +334,7 @@ ul {
 }
 .modal-btn-1:hover,
 .modal-btn-1:focus {
-  color: #ffffff;
+  fill: #ffffff;
 }
 .section-work-heading-1 {
   font-family: var(--main-font);
@@ -437,11 +437,17 @@ ul {
   background-image: linear-gradient(#F5F4FA), rgba(#F5F4FA)), url("../images/svg-for-sprite/astronaut.svg");
   margin-bottom: 30px;
 }
+.social {
+  width: 206px;
+  padding-left: 32px;
+  padding-right: 30px;
+}
 .social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }
-
 .social-list-link {
   display: flex;
   align-items: center;
@@ -450,39 +456,25 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
-  
 }
 .social-list-link:hover {
   background-color: #2196f3;
 }
 .social-list-link:hover .social-list-svg {
-  fill: #ffffff;
+  fill: rgb(255, 255, 255);
 }
-
 .social-list-svg {
   width: 20px;
   height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
 }
 .social-list-item {
   padding-top: 15px;
   padding-bottom: 30px;
 }
-.social {
-  width: 206px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
+.social-list-item:not(:last-child) {
+  padding-right: 10px;
 }
+
 .section-clients {
   padding-top: 95px;
   padding-bottom: 95px;
@@ -507,14 +499,6 @@ ul {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-}
-.add-svg-1:hover,
-.add-svg-2:hover{
-  background-color: #2196f3;
-}
-
-.images-client:hover {
-  border: 1px solid #2196f3;
 }
 .images-client-link:hover {
   background-color: #2196f3;
@@ -568,13 +552,32 @@ ul {
 .footer .social {
   padding-left: 85px;
   padding-top: 12px;
+  display: block;
+  justify-content: flex-start;
+  text-align: start;
 }
-.footer .social-list-item {
-  margin-right: 10px;
+.footer .social-list-item:not(:last-child) {
+  padding-right: 10px;
 }
 .footer .address-location {
   margin-top: 20px;
 }
 .footer .logo-0 {
   margin-bottom: 20px;
+}
+.footer .address-mail,
+.address-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .social-list-svg {
+  fill: rgba(255, 255, 255, 0.1);
+}
+.footer .social-list-link {
+  background-color: rgb(47, 48, 58);
+}
+.section-work-item:hover .section-work-item-all {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
