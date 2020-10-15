@@ -60,14 +60,14 @@ ul {
 .header .header-tel {
   display: flex;
   flex-direction: row;
-  padding-left: 305px; 
+  padding-left: 305px;
 }
 
 .add-1 {
   display: flex;
   flex-direction: row-reverse;
 }
-.add-2{
+.add-2 {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -127,12 +127,12 @@ ul {
 .navigation-list {
   color: #212121;
 }
-  .add-1:hover .add-svg-1 {
-    fill: #2196f3;
-  }
-  .add-2:hover .add-svg-2 {
-    fill: #2196f3;
-  }
+.add-1:hover .add-svg-1 {
+  fill: #2196f3;
+}
+.add-2:hover .add-svg-2 {
+  fill: #2196f3;
+}
 /*<-----HEADER-END------->*/
 
 /*<-----HERO------->*/
@@ -439,38 +439,58 @@ ul {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  fill: #757575;
 }
-.images-client-link:hover {
-  fill: #2196f3;
-}
-.social-list-link:hover .social-list-svg {
-  fill: #ffffff;
-}
+
 .client-svg-1 {
   width: 44px;
   height: 49px;
-  display: inline-flex;
+  fill: #afb1b8;
 }
 .client-svg-2 {
   width: 40px;
   height: 52px;
+  fill: #afb1b8;
 }
 .client-svg-3 {
   width: 41px;
   height: 43px;
+  fill: #afb1b8;
 }
 .client-svg-4 {
   width: 80px;
   height: 42px;
+  fill: #afb1b8;
 }
 .client-svg-5 {
   width: 59px;
   height: 47px;
+  fill: #afb1b8;
 }
 .client-svg-6 {
   width: 89px;
   height: 45px;
+  fill: #afb1b8;
+}
+.images-client:hover {
+  border: 1px solid #2196f3;
+}
+.images-client:hover .client-svg-1 {
+  fill: #2196f3;
+}
+.images-client:hover .client-svg-2 {
+  fill: #2196f3;
+}
+.images-client:hover .client-svg-3 {
+  fill: #2196f3;
+}
+.images-client:hover .client-svg-4 {
+  fill: #2196f3;
+}
+.images-client:hover .client-svg-5 {
+  fill: #2196f3;
+}
+.images-client:hover .client-svg-6 {
+  fill: #2196f3;
 }
 /*<!--END---OUR CLIENTS-->*/
 
