@@ -537,12 +537,15 @@ ul {
   text-align: start;
 }
 .footer .social {
-  display: block;
+  display: flex;
+  width: 206px;
   justify-content: flex-start;
   text-align: start;
+  flex-direction: column;
   padding-left: 70px;
   padding-top: 12px;
 }
+
 .footer .social-list-item:not(:last-child) {
   padding-right: 10px;
 }
@@ -551,6 +554,7 @@ ul {
 }
 .footer .logo-0 {
   margin-bottom: 20px;
+  padding-left: 45px;
 }
 .footer .address-mail,
 .address-tel {
