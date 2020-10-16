@@ -602,6 +602,7 @@ ul {
 .modal-btn-1:focus {
   color: #ffff;
   background: #2196f3;
+  border: #2196f3;
   fill: 1px solid #2196f3;
 }
 
