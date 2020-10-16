@@ -285,7 +285,8 @@ ul {
 /*<!--OUR WORK-- +-- OUR COMAND --> >*/
 
 .section-work-heading,
-.section-command-heading {
+.section-command-heading,
+.section-our-clients {
   font-family: var(--main-font);
   font-style: 400;
   font-weight: 700;
@@ -347,6 +348,7 @@ ul {
 .section-command {
   padding-top: 95px;
   padding-bottom: 95px;
+  background: #F5F4FA;
 }
 .section-command .section-command-heading {
   text-align: center;
@@ -434,7 +436,6 @@ ul {
   justify-content: center;
   width: 170px;
   height: 90px;
-  padding-right: 30px;
   background-color: #ffffff;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
@@ -566,6 +567,9 @@ ul {
 .footer .social-list-link:hover {
   background-color: #2196f3;
 }
+.footer .social-list-svg {
+  fill: #ffffff;
+}
 /*<!--END FOOTER ----CONTACT INFO -->*/
 
 /*<!--/PORTFOLIO-->*/
@@ -635,13 +639,17 @@ ul {
   margin-bottom: -30px;
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
-.section-work-1 .section-work-item {
+.section-work-1 .section-work-item-all {
   margin-right: 30px;
   width: 370px;
   margin-bottom: 30px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border: 1px mixed #eeeeee;
   box-sizing: border-box;
+  Fill: 1px solid #FFFFFF;
+  Radius: 1px;
+  Offset: 0px, 1px
+rgba(0, 0, 0, 0.12);
 }
 .section-work-1 .text {
   width: 322px;
