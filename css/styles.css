@@ -651,10 +651,12 @@ ul {
   width: 100%;
 }
 .section-work-1 .text {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 25px;
-  margin-left: 25px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: 1px solid #eeeeee;
 }
 
 /*<!--END--PORTFOLIO---- Our work -->*/ ;
